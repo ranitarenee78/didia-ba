@@ -72,7 +72,7 @@ with c2:
         'Area': ['Ética (UNESCO)', 'Técnica (UNESCO)'],
         'Nivel Promedio': [df['Comp_Etica'].mean(), df['Comp_Tecnica'].mean()]
     })
-    fig2 = px.radial_bar(competencias_data, r='Nivel Promedio', theta='Area', range_r=[0,5])
+    fig2 = px.bar_polar(competencias_data, r='Nivel Promedio', theta='Area', range_r=[0,5], title="Brecha de Competencias (Radar)")
     st.plotly_chart(fig2, use_container_width=True)
 
 # --- 4. MOTOR DE RECOMENDACIÓN (Simulación IA) ---
