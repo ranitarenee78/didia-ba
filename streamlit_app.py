@@ -128,7 +128,7 @@ def generar_recomendacion(austeridad, reticencia, obligados):
         Los docentes reportan falta severa de tiempo o recursos. Cualquier capacitación extra será rechazada si no se libera tiempo primero.
         
         **RECOMENDACIÓN DE POLÍTICA:**
-        1. **Infraestructura:** Garantizar acceso a versiones pagas o equipos (Caso 'Julieta').
+        1. **Infraestructura:** Garantizar acceso a versiones pagas o equipos.
         2. **Tiempo Protegido:** Reducir carga administrativa usando IA para liberar 2hs semanales dedicadas a experimentación.
         """
     elif reticencia >= 4.0:
@@ -138,7 +138,7 @@ def generar_recomendacion(austeridad, reticencia, obligados):
         
         **RECOMENDACIÓN DE POLÍTICA:**
         1. **Talleres de Sensibilización:** Enfocados en "IA como Copiloto" y no como reemplazo.
-        2. **Debate Ético:** Espacios institucionales para definir normas de integridad académica (Caso 'Emilia').
+        2. **Debate Ético:** Espacios institucionales para definir normas de integridad académica.
         """
     elif obligados >= 4.0:
         return """
