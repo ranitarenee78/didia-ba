@@ -25,7 +25,7 @@ def get_simulated_data():
         # Escala 1-5 (Competencias UNESCO)
         'Comp_Etica': np.random.randint(1, 4, 50),
         'Comp_Tecnica': np.random.randint(2, 5, 50),
-        # Escala 1-5 (Límites a la Domesticación - Sandoval)
+        # Escala 1-5 (Límites a la Domesticación)
         'Reticencia_Miedo': np.random.randint(3, 6, 50),
         'Austeridad_Tiempo': np.random.randint(4, 6, 50),
         'Uso_Obligado_Vigilancia': np.random.randint(1, 4, 50),
@@ -69,7 +69,7 @@ else:
 
 st.title("🤖 DiDIA-BA: Brújula de Apropiación Docente")
 st.markdown(f"""
-**Dispositivo de Diagnóstico Institucional basado en el Modelo de Apropiación (Sandoval/Cabello).**
+**Dispositivo de Diagnóstico Institucional basado en el Modelo de Apropiación .**
 Este tablero analiza las barreras de *Austeridad, Reticencia y Usos Obligados* para recomendar políticas de formación.
 *Datos analizados: {len(df)} docentes.*
 """)
